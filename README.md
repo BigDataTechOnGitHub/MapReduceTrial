@@ -11,10 +11,10 @@
 
 * I got two vm:
 
- *domain name* | *ip*
-------------|------------
-`yu0.hdp.co`|`192.168.212.177`
-`yu1.hdp.co`|`192.168.212.181`
+ *domain name* | *ip* | *role*
+------------|------------|------------
+`yu0.hdp.co`|`192.168.212.177`|`master`
+`yu1.hdp.co`|`192.168.212.181`|`slave`
 
 ## setup hadoop on master, for my instance, yu0.hdp.co
 * download hadoop 2.7.1 binary package & config system env
