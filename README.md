@@ -6,6 +6,11 @@
  * file to mapreduce:
  [https://raw.githubusercontent.com/draculavlad/MapReduceTrial/master/deckofcards.txt]
 
+ * transfer deckofcards.txt to largedeck.txt:
+```bash
+for i in {1..120000}; do catdeckofcards.txt >> largedeck0.txt; done
+for i in {1..10}; do cat largedeck0.txt >> largedeck.txt; done
+```
 
 ## Setting up local hadoop cluster##
 
