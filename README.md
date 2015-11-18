@@ -2,6 +2,9 @@
 
 * this trial is following (Durga Gadiraju's video)[https://www.youtube.com/watch?v=nPRY-qGaAMs&list=PLf0swTFhTI8rnNRnVz6n-f1d3ZCDtgqRq]
 
+* (file to mapreduce)[https://raw.githubusercontent.com/draculavlad/MapReduceTrial/master/deckofcards.txt]
+
+
 ## Setting up local hadoop cluster##
 
 * I got two vm:
