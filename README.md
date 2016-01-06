@@ -30,11 +30,11 @@ tar zxf hadoop-2.7.1.tar.gz
 mv hadoop-2.7.1 hadoop
 echo "export HADOOP_HOME=/home/hadoop" >> /etc/profile
 echo "export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop" >> /etc/profile
-echo "export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin"
+echo "export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin" >> /etc/profile
 echo "export HADOOP_OPTS="$HADOOP_OPTS -Djava.library.path=$HADOOP_HOME/lib/" >> /etc/profile
 echo "export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native" >> /etc/profile
-echo "export HADOOP_ROOT_LOGGER=DEBUG,console"
-echo "export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native"
+echo "export HADOOP_ROOT_LOGGER=DEBUG,console" >> /etc/profile
+echo "export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native" >> /etc/profile
 source /etc/profile
 ```
 * config&create hadoop config file and initialize file:
